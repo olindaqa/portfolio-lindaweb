@@ -1,0 +1,44 @@
+.start{
+    background-color: #1e2326;
+}
+.content-start{
+    display: flex;
+    justify-content: center;
+    background-image: url("../img/photo-fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding:120px;
+}
+.start-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background-color: #1e2326;
+    padding: 1rem;
+    margin: 2rem 0;
+    align-items: center;
+    border-radius: 60px 5px 60px 5px;
+    h1{
+        color: #FBEBE3;
+    }
+    p{
+        color: #DE4B6E;
+        font-size: 1.3rem;
+    }
+    img{
+        width: 50%;
+        border-radius: 50%;
+    }
+}
+.redes {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    img{
+        width: 3rem;
+    }
+}
+.redes img:hover{
+    background-color:#DE4B6E ;
+}

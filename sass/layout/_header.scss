@@ -1,0 +1,40 @@
+header{
+    background-color: #1e2326;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    a{
+        color: #DE4B6E;
+        text-decoration: none;
+        font-size:2rem;
+        font-weight:bolder;  
+    }
+}
+.lista a{
+    text-decoration: none;
+    display: flex;
+    margin-right: 2rem;
+    color: white;
+}
+.lista {
+    list-style: none;
+    display: flex;  
+}
+.lista a:hover{
+    color: #DE4B6E;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    color: white;
+    span{
+        background-color: #DE4B6E;
+    }
+}

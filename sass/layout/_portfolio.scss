@@ -1,0 +1,28 @@
+.portfolio{
+    background-color: #1e2326;
+}
+.contenido-seccion{
+    display: flex;
+    flex-direction: column;
+    
+}
+.proyecto img{
+    width: 400px;
+    height: 300px;
+}
+.proyecto{
+    background-color: #252A2E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

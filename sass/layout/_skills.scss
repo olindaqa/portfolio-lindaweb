@@ -1,0 +1,112 @@
+.section-skill{
+    background-color: #1e2326;  
+    padding:1rem 5rem 2rem;
+    color: white;
+}
+.technical-professional{
+    
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #333F50;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skill .progreso{
+    background-color: #DE4B6E;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skill .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #DE4B6E;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+.skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript{
+    0%{width: 0%;}
+    100%{width: 72%;}
+}
+.skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss{
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
+.skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react{
+    0%{width: 0%;}
+    100%{width: 63%;}
+}
+.skill .wordpress{
+    width: 0%;
+    animation: 2s wordpress forwards;
+}
+@keyframes wordpress{
+    0%{width: 0%;}
+    100%{width: 54%;}
+}
+//esto es fila 2
+.skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+}
+@keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 74%;}
+}
+.skill .trabajoequipo{
+    width: 0%;
+    animation: 2s trabajoequipo forwards;
+}
+@keyframes trabajoequipo{
+    0%{width: 0%;}
+    100%{width: 89%;}
+}
+.skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+}
+@keyframes creatividad{
+    0%{width: 0%;}
+    100%{width:80%;}
+}
+.skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+}
+@keyframes dedicacion{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+.fila1,.fila2{
+    width: 45%;
+    background-color: #252A2E;
+}
+

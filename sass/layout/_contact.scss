@@ -1,0 +1,47 @@
+.contacto{
+    background-color: #252A2E;
+    padding: 1rem 0 3rem 0;
+}
+.form-contact-content{
+    
+    background-color: #1e2326;
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.form-contact-content label{
+    line-height: 2.7rem;
+    font-weight: bold;
+    color: #DE4B6E;
+}
+.form-contact-content textarea{
+    min-height: 6.25rem;
+    font-size: 14px;
+}
+.input-field{
+    width: 100%;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1 rem;
+    outline: none;
+}
+.input-field::placeholder{
+    padding: 0.5rem;
+    color:#1e2326;
+}
+.submit-btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.submit-btn:hover{
+    background-color: #DE4B6E;
+    cursor: pointer;
+}

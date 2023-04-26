@@ -1,0 +1,59 @@
+.curriculum{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 1rem 0.5rem;
+}
+.content-section{
+    max-width: 1100px;
+    margin: auto;
+}
+.fila{
+    display: flex;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    padding: 0 20px;
+    flex: 1;
+}
+.izquierda{
+    border-right: 2px solid #252A2E;
+}
+.derecha{
+    border-left: 2px solid #252A2E;
+}
+.item{
+    display: flex;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    flex: 1;
+}
+.casa{
+    color: #DE4B6E;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.fecha{
+    display: block;
+    color: #DE4B6E;
+}
+.col .izq{
+    border-right: 2px solid #DE4B6E;
+    margin-right: 20px;
+}
+.col .der{
+    border-left: 2px solid #DE4B6E;
+    margin-left: 20px;
+}
+.conectori{
+    height: 2px;
+    background-color: #DE4B6E;
+    width: 47px;
+}
+.sub-title{
+    display: flex;
+    justify-content: space-around;
+}
