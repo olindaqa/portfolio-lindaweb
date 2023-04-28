@@ -6,16 +6,14 @@ header{
     position:fixed;
     width: 100%;
     z-index: 1;
-}
-.logo {
-    display: flex;
+    margin: auto;
     align-items: center;
-    a{
-        color: #DE4B6E;
-        text-decoration: none;
-        font-size:2rem;
-        font-weight:bolder;  
-    }
+}
+.logo a{
+    color: #DE4B6E;
+    text-decoration: none;
+    font-size:2rem;
+    font-weight:bolder;  
 }
 .lista a{
     text-decoration: none;
@@ -31,10 +29,29 @@ header{
     color: #DE4B6E;
 }
 .menu{
-    display: flex;
-    align-items: center;
+    background-color: #DE4B6E;
     color: white;
-    span{
-        background-color: #DE4B6E;
-    }
+    display: none;
+    padding: 3px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width:980px) {
+ #nav{
+     display: none;
+ }
+ .menu{
+     display: block;
+ }
+ nav .responsive{
+    display: block;
+    position: absolute;
+    //right: 0;
+    //top: 75px;
+    background-color: aqua;
+    width: 180px;
+ }
+ nav .responsive ul{
+display: block !important;
+ }
 }

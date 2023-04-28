@@ -6,12 +6,10 @@ header {
   position: fixed;
   width: 100%;
   z-index: 1;
-}
-
-.logo {
-  display: flex;
+  margin: auto;
   align-items: center;
 }
+
 .logo a {
   color: #DE4B6E;
   text-decoration: none;
@@ -36,14 +34,34 @@ header {
 }
 
 .menu {
-  display: flex;
-  align-items: center;
-  color: white;
-}
-.menu span {
   background-color: #DE4B6E;
+  color: white;
+  display: none;
+  padding: 3px 6px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
+@media screen and (max-width: 980px) {
+  #nav {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  nav .responsive {
+    display: block;
+    position: absolute;
+    background-color: aqua;
+    width: 180px;
+  }
+
+  nav .responsive ul {
+    display: block !important;
+  }
+}
 html, body {
   width: 100%;
   height: 100%;
@@ -81,10 +99,6 @@ body {
 }
 
 .start {
-  background-color: #1e2326;
-}
-
-.content-start {
   display: flex;
   justify-content: center;
   background-image: url("../img/photo-fondo.jpg");
@@ -111,7 +125,8 @@ body {
   color: #DE4B6E;
   font-size: 1.3rem;
 }
-.start-container img {
+
+.img_olinda {
   width: 50%;
   border-radius: 50%;
 }
@@ -123,6 +138,7 @@ body {
 }
 .redes img {
   width: 3rem;
+  border-radius: 50px;
 }
 
 .redes img:hover {
@@ -191,6 +207,15 @@ body {
   justify-content: center;
 }
 
+@media screen and (max-width: 789px) {
+  .data_interests {
+    flex-direction: column;
+  }
+
+  .content-data, .content-interests {
+    width: 100%;
+  }
+}
 .section-skill {
   background-color: #1e2326;
   padding: 1rem 5rem 2rem;
@@ -343,10 +368,28 @@ body {
   }
 }
 .fila1, .fila2 {
+  display: flex;
   width: 45%;
   background-color: #252A2E;
 }
 
+@media screen and (max-width: 789px) {
+  .technical-professional {
+    flex-direction: column;
+  }
+
+  .fila1, .fila2 {
+    width: 100%;
+  }
+
+  .fila2 {
+    margin-top: 1rem;
+  }
+
+  .barra-skill {
+    width: 100%;
+  }
+}
 .curriculum {
   background-color: #1e2326;
   color: #fff;
@@ -408,17 +451,15 @@ body {
   margin-left: 20px;
 }
 
-.conectori {
-  height: 2px;
-  background-color: #DE4B6E;
-  width: 47px;
-}
+@media screen and (max-width: 789px) {
+  .fila {
+    flex-direction: column;
+  }
 
-.sub-title {
-  display: flex;
-  justify-content: space-around;
+  .fila .col {
+    width: 100%;
+  }
 }
-
 .portfolio {
   background-color: #1e2326;
 }
@@ -452,6 +493,15 @@ body {
   align-items: center;
 }
 
+@media screen and (max-width: 789px) {
+  .galeria {
+    flex-direction: column;
+  }
+
+  .proyecto {
+    padding-top: 1rem;
+  }
+}
 .contacto {
   background-color: #252A2E;
   padding: 1rem 0 3rem 0;
@@ -495,7 +545,7 @@ body {
   padding: 10px;
   margin: 10px 0;
   background-color: #fff;
-  border: 2px solid;
+  border: 2px solid #DE4B6E;
   border-radius: 5px;
   font-size: 1rem;
   font-weight: bold;
@@ -503,17 +553,37 @@ body {
 
 .submit-btn:hover {
   background-color: #DE4B6E;
+  color: #fff;
   cursor: pointer;
 }
 
 footer {
-  height: 4rem;
   background-color: #1e2326;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  flex-direction: column;
+}
+
+.arriba span {
+  color: #DE4B6E;
+  font-size: 2.5rem;
+}
+
+.redes_footer {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.redes_footer img {
+  width: 2.5rem;
+  border-radius: 50px;
+}
+
+.redes_footer img:hover {
+  background-color: #DE4B6E;
 }
 
 /*# sourceMappingURL=main.css.map */

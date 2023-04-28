@@ -52,3 +52,11 @@
         justify-content: center;
     }
 }
+@media screen and (max-width:789px) {
+    .data_interests{
+        flex-direction: column;
+    }
+    .content-data,.content-interests{
+        width: 100%;
+    }
+}

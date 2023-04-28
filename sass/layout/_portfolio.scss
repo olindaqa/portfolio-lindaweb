@@ -26,3 +26,11 @@
     flex-direction: column;
     align-items: center;
 }
+@media screen and (max-width:789px){
+    .galeria{
+        flex-direction: column;
+    }
+    .proyecto{
+        padding-top: 1rem;
+    }
+}

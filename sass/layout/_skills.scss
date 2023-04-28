@@ -4,7 +4,6 @@
     color: white;
 }
 .technical-professional{
-    
     display: flex;
     border-radius: 5px;
     justify-content: space-between;
@@ -106,7 +105,21 @@
     100%{width: 75%;}
 }
 .fila1,.fila2{
+    display: flex;
     width: 45%;
     background-color: #252A2E;
 }
-
+@media screen and (max-width:789px) {
+    .technical-professional{
+        flex-direction: column;
+    }
+    .fila1,.fila2{
+        width: 100%;
+    }
+    .fila2{
+        margin-top: 1rem;
+    }
+    .barra-skill{
+        width: 100%;
+    }
+}

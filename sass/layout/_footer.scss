@@ -1,9 +1,26 @@
 footer{
-    height: 4rem;
     background-color: #1e2326;
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    flex-direction: column;
+}
+
+.arriba span{
+    color: #DE4B6E;
+    font-size: 2.5rem;
+}
+.redes_footer{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    img{
+        width: 2.5rem;
+        border-radius: 50px;
+    }
+}
+.redes_footer img:hover{
+    background-color: #DE4B6E;
 }

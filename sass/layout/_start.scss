@@ -1,7 +1,4 @@
 .start{
-    background-color: #1e2326;
-}
-.content-start{
     display: flex;
     justify-content: center;
     background-image: url("../img/photo-fondo.jpg");
@@ -26,10 +23,10 @@
         color: #DE4B6E;
         font-size: 1.3rem;
     }
-    img{
-        width: 50%;
-        border-radius: 50%;
-    }
+}
+.img_olinda{
+    width: 50%;
+    border-radius: 50%;
 }
 .redes {
     display: flex;
@@ -37,6 +34,7 @@
     justify-content: space-between;
     img{
         width: 3rem;
+        border-radius: 50px;
     }
 }
 .redes img:hover{

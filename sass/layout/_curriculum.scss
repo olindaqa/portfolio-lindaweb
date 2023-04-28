@@ -48,12 +48,11 @@
     border-left: 2px solid #DE4B6E;
     margin-left: 20px;
 }
-.conectori{
-    height: 2px;
-    background-color: #DE4B6E;
-    width: 47px;
-}
-.sub-title{
-    display: flex;
-    justify-content: space-around;
+@media screen and (max-width:789px){
+    .fila{
+        flex-direction: column;
+    }
+    .fila .col{
+        width: 100%;
+    }
 }

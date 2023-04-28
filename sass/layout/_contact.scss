@@ -36,12 +36,13 @@
     padding: 10px;
     margin: 10px 0;
     background-color: #fff;
-    border: 2px solid;
+    border: 2px solid #DE4B6E;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
 }
 .submit-btn:hover{
     background-color: #DE4B6E;
+    color: #fff;
     cursor: pointer;
 }
