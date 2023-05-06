@@ -1,21 +1,23 @@
 .section-about-me{
     background-color: #252A2E;
-    padding:1rem 5rem 3rem;
     color: white;
+    padding: 2rem 1rem;
 }
 .about-me span{
+    display: inline-block;
     color: #DE4B6E;
     font-weight: bold;
+    width: 230px;
 }
 .data_interests{
-    display: flex;
-    justify-content: space-between;
-    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 20px;
 }
-.content-data,.content-interests{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+.cont-interests{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
 }
 .content-data ul{
     list-style: none;
@@ -30,19 +32,13 @@
         width: 130px;
     }
 }
-.content-interests img{
-    width: 4rem;
-}
-.interests-one,.interests-two{
-    display: flex;
+.interests img{
+    width: 5rem;
 }
 .interests{
     background-color: #1e2326;
     border-radius: 10px;
     width: 6rem;
-    height: 6rem;
-    margin:  15px;
-    padding: 10px;
     img:hover{
         background-color: #DE4B6E;
         border-radius: 5px;
@@ -52,11 +48,17 @@
         justify-content: center;
     }
 }
+@media screen and (max-width:989px) {
+    .cont-interests{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
 @media screen and (max-width:789px) {
     .data_interests{
-        flex-direction: column;
+       display: flex;
+       flex-direction: column;
     }
-    .content-data,.content-interests{
-        width: 100%;
+    .cont-interests{
+        grid-template-columns: repeat(4,1fr);
     }
 }

@@ -1,27 +1,25 @@
 .start{
+    background-color:#252A2E;
+}
+.content-section-start{
     display: flex;
     justify-content: center;
     background-image: url("../img/photo-fondo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    padding:120px;
 }
 .start-container{
     display: flex;
     flex-direction: column;
     max-width: 350px;
     background-color: #1e2326;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 2rem 0;
     align-items: center;
     border-radius: 60px 5px 60px 5px;
-    h1{
-        color: #FBEBE3;
-    }
     p{
         color: #DE4B6E;
-        font-size: 1.3rem;
     }
 }
 .img_olinda{
@@ -39,4 +37,10 @@
 }
 .redes img:hover{
     background-color:#DE4B6E ;
+}
+
+@media screen and (max-width:989px){
+    .content-section-start{
+        background-image: none;
+    }
 }

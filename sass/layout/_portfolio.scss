@@ -1,36 +1,33 @@
-.portfolio{
+.section-portfolio{
     background-color: #1e2326;
 }
-.contenido-seccion{
-    display: flex;
-    flex-direction: column;
-    
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding-bottom: 2rem;
 }
 .proyecto img{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 200px;
 }
 .proyecto{
     background-color: #252A2E;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.galeria{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 3rem;
+    padding: 1rem 0;
 }
 .overlay{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
-@media screen and (max-width:789px){
+@media screen and (max-width:989px){
     .galeria{
-        flex-direction: column;
+        display: block;
     }
-    .proyecto{
-        padding-top: 1rem;
+}
+@media screen and (max-width:1350px){
+    .galeria{
+        grid-template-columns: repeat(2,1fr);
     }
 }
