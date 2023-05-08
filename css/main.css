@@ -112,10 +112,6 @@ header {
   animation: muestraMenu 350ms ease-in-out both;
 }
 
-.font {
-  font-family: "Merienda", cursive;
-}
-
 .start {
   background-color: #252A2E;
 }
@@ -233,10 +229,6 @@ header {
   .data_interests {
     display: flex;
     flex-direction: column;
-  }
-
-  .cont-interests {
-    grid-template-columns: repeat(4, 1fr);
   }
 }
 .section-skill {
@@ -648,6 +640,9 @@ p {
   .wrapper {
     padding: 0 7.5rem;
   }
+}
+.font {
+  font-family: "Merienda", cursive;
 }
 
 /*# sourceMappingURL=main.css.map */
